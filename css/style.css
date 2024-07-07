@@ -1,0 +1,92 @@
+/* POPPINS, SANS-SERIF */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
+/* GENERAL SETUP */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    font-size: 16px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+/* GENERAL SETUP END*/
+
+
+
+
+
+/* NAVIGATION */
+nav.navbar {
+    background-color: rgba(0, 0, 0, .2);
+    box-shadow: 2px 2px 8px black;
+}
+ul.navigation {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+ul.navigation .left img {
+    width: 30px;
+    margin-top: 8px;
+}
+ul.navigation .left li a {
+    padding: 4px 16px;
+}
+ul.navigation .center li,
+ul.navigation .right li {
+    display: inline-block;
+}
+ul.navigation .center li a,
+ul.navigation .right li a {
+    padding: 14px 16px;
+}
+ul.navigation li {
+    color: black;   
+}
+ul.navigation a:hover {
+    color: white;
+    background-color: black;
+}
+
+/* NAVIGATION END*/
